@@ -1,0 +1,122 @@
+
+
+#fondo {
+    background-color: #8AA6A3;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+nav{
+    margin-top: 1.5em;
+}
+
+nav a img{
+    width: 7em;
+    height: auto;
+}
+
+
+
+
+h1{
+    color: #10403B;
+    padding-top: 1em;
+    padding-bottom: 1EM;
+}
+
+/*------------------------------clientes--------------------------------------*/
+
+
+#nuevoCliente{
+    display: flex;
+    margin-bottom: 1em;
+    width: 9em;
+}
+
+
+
+.editarC{
+    margin: 0em 1em 0em 1em;
+}
+
+.pedidosC{
+    margin: 0em 1em 0em 1em;
+}
+
+
+.tablaClientes{
+    width: 85%;
+    text-align: center;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.tablaClientes th{
+    border: 1px solid black;
+    padding: 1em;
+}
+
+.tablaClientes tr{
+    border: 1px solid black;
+    width: auto;
+}
+
+
+.tablaClientes tr th a img{
+    width: 2em;
+    height: auto;
+}
+
+
+
+
+/*------------------------------EDITAR CLIENTES y nuevo cliente--------------------------------------*/
+
+
+
+
+.formMain{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+
+.formEditarCliente div{
+    margin-right: 1em;
+}
+
+
+.colum2{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.colum1{
+    display: flex;
+    flex-direction: row;
+}
+
+#botonGuardar{
+    width: 6em;
+}
+
+
+
+/*------------------------------pedidos( nuevos y editar)--------------------------------------*/
+
+#nuevoPedido{
+    display: flex;
+    margin-bottom: 1em;
+    width: 9em;
+}
+
+.botonesPedidos{
+    margin-top: 1em;
+}
+
